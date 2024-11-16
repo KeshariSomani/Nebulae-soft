@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nebulae | Bootcamp</title>
+    <meta name="description" content="Infix developers - Software Agency">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/sal.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/green-audio-player.min.css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+      <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- remixIcon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<style>
+    .boot-head{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .boot-margin-accordion{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+    }
+    .boot-accordion-button{
+        background-color: #5956e9;
+        color: white;
+        border: #ffffff;
+    }
+</style>
+
+<body class="sticky-header">
+   
+    <a href="#main-wrapper" id="backto-top" class="back-to-top">
+        <i class="fa-solid fa-angles-up" style="color: #ffffff;"></i>
+    </a>
+
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+
+    <!-- <div class="my_switcher d-none d-lg-block">
+        <ul>
+            <li title="Light Mode">
+                <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                    <i class="fal fa-lightbulb-on"></i>
+                </a>
+            </li>
+            <li title="Dark Mode">
+                <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+        </ul>
+    </div> -->
+
+    <div id="main-wrapper" class="main-wrapper">
+
+        <!--=====================================-->
+        <!--=        Header Area Start       	=-->
+        <!--=====================================-->
+        <header class="header axil-header header-style-1">
+            <div id="axil-sticky-placeholder"></div>
+            <div class="axil-mainmenu">
+                <div class="container">
+                    <div class="header-navbar">
+                        <div class="header-logo">
+                            <a href="index.html"><img class="light-version-logo" src="assets/media/logo.png" alt="logo"></a>
+                            <a href="index.html"><img class="dark-version-logo" src="assets/media/logo-3.png" alt="logo"></a>
+                            <a href="index.html"><img class="sticky-logo" src="assets/media/logo-2.png" alt="logo"></a>
+                        </div>
+                        <div class="header-main-nav">
+                            <!-- Start Mainmanu Nav -->
+                            <nav class="mainmenu-nav" id="mobilemenu-popup">
+                                <div class="d-block d-lg-none">
+                                    <div class="mobile-nav-header">
+                                        <div class="mobile-nav-logo">
+                                            <a href="index.html">
+                                                <img class="light-mode" src="assets/media/logo-2.png" alt="Site Logo">
+                                                <img class="dark-mode" src="assets/media/logo-3.png" alt="Site Logo">
+                                            </a>
+                                        </div>
+                                        <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
+                                    </div>
+                                </div>
+                                <ul class="mainmenu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                                    <li><a href="about-us.html">About</a></li>                                    
+                                    <!-- <li><a href="blog.html">Blog</a></li> -->
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="Boot.html">Bootcamp</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End Mainmanu Nav -->
+                        </div>
+                        <div class="header-action">
+                            <ul class="list-unstyled">
+                                <li class="sidemenu-btn d-lg-block d-none">
+                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
+                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <!-- <li class="my_switcher d-block d-lg-none">
+                                    <ul>
+                                        <li title="Light Mode">
+                                            <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                                                <i class="fal fa-lightbulb-on"></i>
+                                            </a>
+                                        </li>
+                                        <li title="Dark Mode">
+                                            <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                                                <i class="fas fa-moon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=====================================-->
+        <!--=       Bootcamp Poster Start       =-->
+        <!--=====================================-->
+         <section class="section section-padding p-2">
+           <img src="assets/media/banner/bootcamp_Yasin_Ahmed.jpeg" alt="YASIN_AHMED_POSTER" class="w-75 mx-auto d-block">
+         </section>
+        <!--=====================================-->
+        <!--=       Bootcamp Content Start        =-->
+        <!--=====================================-->
+        <section>
+            <div class="">
+              <p class="text-center mt-2 boot-head">UX/UI Live Bootcamp Course!</p>  
+              <p class="text-center fs-2 -pt-2">30 recorded live classes & 6 industry level project case studies</p>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=       Accordion Start        =-->
+        <!--=====================================-->
+        <section class="boot-margin-accordion">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button boot-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. Define the Project and Goals
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       <span> i.   1 hour class lecture </span> <br>
+                        <span> ii.  20 minutes problem solving</span> <br>
+                       <span> iii. 10 minutes class evaluation</span> <br>
+                       <span> iv. Industry level project research & problems</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed boot-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. User Research
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span> i.   1 hour class lecture </span> <br>
+                        <span> ii.  20 minutes problem solving</span> <br>
+                       <span> iii. 10 minutes class evaluation</span> <br>
+                       <span> iv. Industry level project research & problems</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed boot-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. Design and Ideation
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <span> i.   1 hour class lecture </span> <br>
+                        <span> ii.  20 minutes problem solving</span> <br>
+                       <span> iii. 10 minutes class evaluation</span> <br>
+                       <span> iv. Industry level project research & problems</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Footer Area Start       	=-->
+        <!--=====================================-->
+        <footer class="footer-area">
+            <div class="container">
+                <!-- <div class="footer-top">
+                    <div class="footer-social-link">
+                        <ul class="list-unstyled">
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="footer-main">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-5" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
+                            <div class="footer-widget border-end">
+                                <div class="footer-newsletter">
+                                    <h2 class="title">Get in touch!</h2>
+                                    <p>Our Team of expert designers and engineers will help you build powerful tools to drive impact and help you achieve your goals</p>
+                                    <div class="footer-social-link">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://www.facebook.com/nebulaesoft/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://x.com/NebulaeItsoft" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.pinterest.com/nebulaeitsoft/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/company/nebulae03/posts/?feedView=all" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="https://www.instagram.com/uxui_research_nebulae/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li>
+                                            <!-- <li><a href="#" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li> -->
+                                            <!-- <li><a href=" https://dribbble.com/uxuinebulaesolution" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li> -->
+                                            <li><a href="https://www.behance.net/nebulaeuxuisolution" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <form>
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" placeholder="Email address">
+                                            <button class="subscribe-btn" type="submit">Email</button>
+                                        </div>
+                                    </form> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="footer-widget">
+                                        <h6 class="widget-title">Services</h6>
+                                        <div class="footer-menu-link">
+                                            <ul class="list-unstyledfooter">
+                                                <li><a href="#">UI/UX Design</a></li>
+                                                <li><a href="$">Website Development</a></li>
+                                                <li><a href="#">Api Development</a></li>
+                                                <li><a href="#">Logo &amp; Branding </a></li>
+                                                <li><a href="#">Software Development</a></li>
+                                                <li><a href="#">Online Marketing</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="footer-widget">
+                                        <h6 class="widget-title">Resourses</h6>
+                                        <div class="footer-menu-link">
+                                            <ul class="list-unstyledfooter">
+                                                <!-- <li><a href="blog.html">Blog</a></li> -->
+                                                <li><a href="case-study.html">Case Studies</a></li>
+                                                <!-- <li><a href="project.html">Portfolio</a></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="footer-widget">
+                                        <h6 class="widget-title">Support</h6>
+                                        <div class="footer-menu-link">
+                                            <ul class="list-unstyledfooter">
+                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Terms of Use</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-copyright">
+                                <span class="copyright-text">© 2024. All rights reserved by <a href="#">Nebulae</a>.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-bottom-link">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--=====================================-->
+        <!--=       Offcanvas Menu Area       	=-->
+        <!--=====================================-->
+        <div class="offcanvas offcanvas-end header-offcanvasmenu" tabindex="-1" id="offcanvasMenuRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- <form action="#" class="side-nav-search-form">
+                    <div class="form-group">
+                        <input type="text" class="search-field" name="search-field" placeholder="Search...">
+                        <button class="side-nav-search-btn"><i class="ri-search-line"></i></button>
+                    </div>
+                </form> -->
+                <div class="row ">
+                    <div class="col-lg-7 col-xl-6">
+                        <div class="contact-info-wrap">
+                            <div class="contact-inner">
+                                <address class="address">
+                                    <span class="title">Contact Information</span>
+                                    <p>New,<br>Bailey Road, Dhaka</p>
+                                </address>
+                                <address class="address">
+                                    <span class="title">We're Available 24/7. Call Now.</span>
+                                    <li class="tel" style="list-style: none;"><i class="fas fa-phone"></i> +8801712-581668</li>
+                                    <li class="tel" style="list-style: none;"><i class="fas fa-phone"></i> +8801704-632456</li>
+                                </address>
+                            </div>
+                            <div class="contact-inner">
+                                <h5 class="title">Contact with us</h5>
+                                 <address class="address">
+
+                                 </address>
+                                    <!-- <ul> -->
+                                        <li style="list-style: none; font-weight: 500;"><i class="ri-mail-line"></i> sales@nebulae-soft.com</li>
+                                        <li style="list-style: none; font-weight: 500;"><i class="ri-mail-line"></i> support@nebulae-soft.com</li>
+                                     <!-- </ul> -->
+                                 
+                                <!-- <div class="contact-social-share">
+                                    <ul class="social-share list-unstyled">
+                                        <li><a href="https://www.facebook.com/profile.php?id=61557632140972"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/nebulae03/posts/?feedView=all"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/counterup.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/sal.js"></script>
+    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
+    <script src="assets/js/vendor/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendor/tilt.js"></script>
+    <script src="assets/js/vendor/green-audio-player.min.js"></script>
+    <script src="assets/js/vendor/jquery.nav.js"></script>
+
+    <!-- Site Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
